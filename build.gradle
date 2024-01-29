@@ -27,6 +27,8 @@ dependencies {
     implementation 'com.github.skjolber.3d-bin-container-packing:core:3.0.9'
 
     compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
+
 
 
 
