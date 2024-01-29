@@ -21,12 +21,12 @@ ext {
 }
 
 dependencies {
-    implementation 'com.google.cloud:spring-cloud-gcp-starter'
     implementation 'org.springframework.boot:spring-boot-starter-web'
-
     implementation 'com.github.skjolber.3d-bin-container-packing:core:3.0.9'
 
+    compileOnly 'org.springframework.cloud:spring-cloud-gcp-starter-vision:1.2.8.RELEASE'
     compileOnly 'org.projectlombok:lombok'
+
     annotationProcessor 'org.projectlombok:lombok'
 
 
