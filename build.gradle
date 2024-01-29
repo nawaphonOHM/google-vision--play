@@ -24,6 +24,9 @@ dependencies {
     implementation 'com.google.cloud:spring-cloud-gcp-starter'
     implementation 'org.springframework.boot:spring-boot-starter-web'
 
+    implementation 'com.github.skjolber.3d-bin-container-packing:core'
+
+
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
