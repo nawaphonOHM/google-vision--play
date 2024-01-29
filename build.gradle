@@ -33,6 +33,7 @@ dependencies {
 
 
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation 'org.springframework.cloud:spring-cloud-gcp-starter-vision:1.2.8.RELEASE'
 }
 
 dependencyManagement {
