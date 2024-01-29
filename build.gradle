@@ -26,6 +26,9 @@ dependencies {
 
     implementation 'com.github.skjolber.3d-bin-container-packing:core'
 
+    compileOnly 'org.projectlombok:lombok'
+
+
 
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
